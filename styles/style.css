@@ -1,0 +1,251 @@
+#loginPage {
+   /*background-image: url("../Assets/BG_6.jpg") !important;*/
+    background-image: url("../Assets/Login2.jpg") !important;
+   height: 100vh !important;
+   background-size: cover;
+ }
+ #homePage {
+   /*background-image: url("../Assets/BG_6.jpg") !important;*/
+    background-image: url("../Assets/try3.jpg") !important;
+   height: 100vh !important;
+   background-size: 100%;
+   background-repeat: no-repeat;
+
+   /*opacity: 0.9;*/
+ }
+#RegisterPage{
+  background-image: url("../Assets/Register.jpg") !important;
+ height: 100vh !important;
+ background-size: cover;
+}
+.citiesPage{
+  height: 100vh !important;
+  background: grey;
+}
+ .ApplicationLogo{
+   background-image: url("../Assets/SB-LOGO.png") !important;
+ }
+.regDiv{
+    background-image: url("../Assets/1.jpg") !important;
+ height: 100vh !important;
+ background-size: cover;
+}
+ .loginDetailsColor{
+   color: yellow !important;
+   font-size:  12px !important;
+   font-weight: normal !important;
+   font-family: Arial;
+ }
+
+ .labelLoginDetailsAlign{
+    position: relative;
+    left: 49px !important;
+  }
+  .textAlignCenter{
+    text-align: center;
+    /*width: 13% !important;*/
+  }
+  .alignLoginFields{
+  margin-top: 1%;
+}
+
+.loginTextAlign{
+    position: relative;
+      left: 3% !important;
+    }
+
+    .textAlignCenterWidth{
+  width: 8% !important;
+  margin-top: 10px !important;
+}
+
+.inputFieldClass{
+  /*position: relative;
+  height: 31px !important;
+  font-size: 12px !important;
+  font-weight: normal;
+
+  border: 0.5px solid #CCC !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;*/
+
+  position: relative;
+height: 31px !important;
+font-size: 14px !important;
+font-weight: normal;
+border: 1px solid #CCC !important;
+border-radius: 0px !important;
+box-shadow: none !important;
+min-width: 98%;
+/*background-color: #2a2a2a;*/
+/*color: #d3d3d3;*/
+/*border: 2px solid #000000;*/
+font-size: .85 em;
+height: 1.9em;
+padding: 6px 12px !important;
+/*display: inline !important;*/
+/* border-radius: 5px 5px 5px 5px; */
+outline: none;
+-webkit-appearance: none;
+}
+
+.borderLoginFields{
+    border-radius: 20px !important;
+    text-indent: 12px;
+}
+
+.btnLoginColor{
+  background-color: yellow !important;
+  color: black !important;
+  outline: 0 !important;
+}
+.loginFieldBackColor{
+  background-color: rgba(212, 202, 202, 0.41) !important;
+  color: white !important;
+}
+
+.passPosition{
+  position: relative;
+  right: 3px !important;
+}
+
+.topMarginDecider{
+  margin-top: 15%;
+}
+
+.buttonAlignWithFields{
+  position: relative !important;
+  right: 8%;
+}
+
+.loginFieldsPositioning{
+  left: 10px ;
+}
+
+.zeroPadding{
+  padding: 0px !important;
+}
+
+.submitButtonStyling{
+  font-size: 12px !important;
+  padding-left: 0px;
+}
+
+.regFields{
+  position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.homewrapper{
+  position: relative;
+  top: 230px;
+}
+.sechduleIcon,.confIcon{
+  cursor: pointer;
+}
+.sechduleIcon{
+  width:60%;
+  height: 50%;
+  position: relative;
+  right: 6%;
+}
+.confIcon{
+  width:62%;
+  height: 60%;
+  position: relative;
+  right: 6%;
+}
+.deleteIconClass{
+  position: RELATIVE;
+    LEFT: 65%;
+    bottom: 3PX;
+}
+.padRightZero{
+  padding-right: 0px !important;
+}
+.groundUL{
+ list-style: none;
+ padding: 0px;
+ position: relative;
+ top: 38px;
+ color: white;
+ background: darkgrey;
+}
+.groundUL li{
+  padding: 9px;
+  cursor: pointer;
+}
+.normalGrnd{
+ height: 40px;
+ border-bottom: solid black 1px;
+}
+.grndListDet{
+  height: 40px;
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
+  cursor: default !important;
+}
+.selectedGrnd{
+  color: yellow;
+   height: 40px;
+  border-bottom: solid black 1px;
+}
+.loginLogo{
+      width: 200px;
+    height: 100px;
+        position: relative;
+    top: 175px;
+    left: 42%;
+}
+.headertxt{
+  background: #ffd325;
+    height: 42px;
+    padding: 10px;
+    font-weight: bold;
+}
+.citifont{
+color :rgba(255, 255, 255, 0.93);
+font-size: 22px;
+padding: 34px;
+cursor: pointer;
+}
+.wsqrscss{
+  width: 4%;
+    float: left;
+}
+.sqrImg{
+      width: 49%;
+    height: 9px;
+}
+.addUserHeader{
+    /*background: #ffd325;*/
+        /*background-color: rgba(127, 221, 233, 0.4);*/
+    height: 42px;
+    border-bottom: black 1px solid;
+}
+.addicon{
+  width: 30px;
+    float: right;
+    position: relative;
+    right: 8%;
+    top: 11px;
+    cursor: pointer;
+}
+.addText{
+      float: right;
+    position: relative;
+    top: 16px;
+    font-size: 18px;
+cursor: pointer;
+}
+
+
+.regbtn{
+      margin-top: 14px;
+    /* margin-left: 5px; */
+    width: 105px;
+}
+
+.userDisplayWidth{
+  width : 16%;
+}
